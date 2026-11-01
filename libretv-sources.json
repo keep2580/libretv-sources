@@ -1,0 +1,66 @@
+{
+  "name": "LibreTV 已验证源列表",
+  "version": 2,
+  "snapshotDate": "2026-11-01",
+  "note": "以下源均已实测：接口连通、搜索返回内容纯净（无成人条目）。验证方式：LibreTV 服务端探活 + 真实片名搜索检查。",
+  "sources": [
+    {
+      "name": "360资源",
+      "url": "https://360zyzz.com/api.php/provide/vod",
+      "detail": "https://360zy.com",
+      "isAdult": false
+    },
+    {
+      "name": "极速资源",
+      "url": "https://jszyapi.com/api.php/provide/vod",
+      "detail": "https://jszyapi.com",
+      "isAdult": false
+    },
+    {
+      "name": "最大资源",
+      "url": "https://api.zuidapi.com/api.php/provide/vod",
+      "detail": "https://zuida.xyz",
+      "isAdult": false
+    },
+    {
+      "name": "魔都资源",
+      "url": "https://www.mdzyapi.com/api.php/provide/vod",
+      "detail": "https://www.moduzy.net",
+      "isAdult": false
+    },
+    {
+      "name": "非凡资源",
+      "url": "https://api.ffzyapi.com/api.php/provide/vod",
+      "detail": "https://cj.ffzyapi.com",
+      "isAdult": false
+    },
+    {
+      "name": "暴风资源",
+      "url": "https://bfzyapi.com/api.php/provide/vod",
+      "detail": "https://bfzy.tv",
+      "isAdult": false
+    },
+    {
+      "name": "红牛资源",
+      "url": "https://www.hongniuzy2.com/api.php/provide/vod",
+      "detail": "https://www.hongniuzy.com",
+      "isAdult": false
+    },
+    {
+      "name": "金鹰点播",
+      "url": "https://jyzyapi.com/provide/vod/from/jinyingyun/at/json",
+      "detail": "https://jinyingzy.com",
+      "isAdult": false
+    }
+  ],
+  "liveSources": [
+    {
+      "name": "国内电视·IPTV-org",
+      "url": "https://iptv-org.github.io/iptv/countries/cn.m3u"
+    },
+    {
+      "name": "港澳台及海外·YueChan",
+      "url": "https://cdn.jsdelivr.net/gh/YueChan/Live@main/GNTV.m3u"
+    }
+  ]
+}
